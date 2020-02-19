@@ -1,0 +1,80 @@
+.section2{
+    background-color: #012f34;
+    height: 700px;
+   justify-content: center;
+    h2 {
+        width: 445px;
+        height: 137px;
+        color: #ffffff;
+        font-family: "Livvic";
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+  .sec2-line1-img {
+      background-image: url('../../imgs/icon-person.svg');
+      width: 80px;
+      height: 80px;
+      background-size: 80px;
+  }
+
+  .sec2-line2-img {
+    background-image: url('../../imgs/icon-cog.svg');
+    width: 80px;
+    height: 80px;
+    background-size: 80px;
+}
+
+.sec2-line3-img {
+  background-image: url('../../imgs/icon-chart.svg');
+  width: 80px;
+  height: 80px;
+  background-size: 80px;
+}
+
+  .sec2-title {
+    width: 445px;
+    height: 28px;
+    color: #f67e7e;
+    font-family: "Livvic";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  h3 {
+    width: 445px;
+    height: 47px;
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: "Livvic";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  .section2 {
+      text-align: center;
+      padding-right: 20px;
+      padding-left: 20px;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+       .cards{
+         flex-direction: column;
+       }
+
+      h2 {
+          font-size: rem(40px);
+          line-height: normal;
+          width: 300px;
+          text-align: left; 
+      }
+  }
+  
+ 
+}

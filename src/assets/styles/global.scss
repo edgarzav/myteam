@@ -1,0 +1,15 @@
+// Setup
+@import "setup/functions.scss";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+@import "basics/typography.scss";
+
+// Components
+@import "components/section1.scss";
+@import "components/section2.scss";
+@import "components/section3.scss";
+@import "components/section4.scss";
+@import "components/footer.scss";

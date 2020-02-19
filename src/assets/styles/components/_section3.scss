@@ -1,0 +1,108 @@
+.section3{
+    background-color: #004047;
+
+    h2 {
+        width: 932px;
+        height: 89px;
+        color: #ffffff;
+        font-family: "Livvic";
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+    
+    span {
+        color: #79c8c7;
+    }
+
+    h3 {
+        width: 350px;
+        height: 97px;
+        color: #ffffff;
+        font-family: "Livvic";
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    h4 {
+        width: 350px;
+        height: 28px;
+        color: #79c8c7;
+        font-family: "Livvic";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .sec3-user-details {
+        width: 350px;
+        height: 18px;
+        color: #ffffff;
+        font-family: "Livvic";
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+
+    .sec3-user1-img {
+        background-image: url('../../imgs/avatar-kady.jpg');
+        width: 62px;
+        height: 62px;
+        border: 2px solid #c4fffe;
+        background-size: 62px;
+        border-radius: 50%;
+    }
+
+    .sec3-user2-img {
+        background-image: url('../../imgs/avatar-aiysha.jpg');
+        background-repeat: no-repeat;
+        width: 62px;
+        height: 62px;
+        border: 2px solid #c4fffe;
+        background-size: 62px;
+        border-radius: 50%;
+    }
+
+    .sec3-user3-img {
+        background-image: url('../../imgs/avatar-arthur.jpg');
+        background-repeat: no-repeat;
+        width: 62px;
+        height: 62px;
+        border: 2px solid #c4fffe;
+        background-size: 62px;
+        border-radius: 50%;
+    }
+
+    .icon-quot {
+        background-image: url('../../imgs/icon-quotes.svg');
+        background-repeat: no-repeat;
+        width: 80px;
+        height: 80px;
+        background-size: 80px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .section3 {
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        justify-content: space-evenly;
+  
+         .cards{
+             margin-top: 150px;
+             flex-direction: column;
+             justify-content: space-evenly;
+
+         }
+  
+        h2 {
+            font-size: rem(40px);
+            line-height: normal;
+            width: 300px;
+            text-align: left; 
+        }
+    }
+  }

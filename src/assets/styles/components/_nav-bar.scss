@@ -1,0 +1,14 @@
+.nav-bar{
+    padding: 75px 80px;
+    color: #fff;
+
+    ul{
+        &>li:not(:last-child) {
+            margin-right: 58px;
+        }
+
+    }
+}
+
+
+
